@@ -2,6 +2,7 @@ YaBS
 ====
 
 The first pure Blogging System, ever seen, since ages.<br />
+YaBS is Designed, to be lightweight, secure, beautiful, and meant for what it's made for: Blogs.<br /><br />
 Release Date: 01-01-2015<br />
 More information: http://www.yamisoft.wtf<br /><br />
 
