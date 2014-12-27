@@ -1,6 +1,10 @@
 YaBS
 ====
 
+<b>Don't Download it yet, I forgot to Include the most important file of them all: The Installer File!
+I have to Remake it, because I accentally Deleted it.
+I'm very sorry, for this!</b>
+
 The first pure Blogging System, ever seen, since ages.<br />
 YaBS is Designed, to be lightweight, secure, beautiful, and meant for what it's made for: Blogs.<br /><br />
 Release Date: 01-01-2015<br />
