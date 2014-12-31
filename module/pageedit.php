@@ -42,7 +42,7 @@ else {
 	$stmt = $mysqli->prepare($sql);
 	$stmt->execute();
 
-	$stmt->bind_result($id, $title, $body);
+	$stmt->bind_result($id, $title, $body, $priv);
 	
 	while ($stmt->fetch()) {
 		echo "<script type='text/javascript' src='module/codebutton.js'></script>";
