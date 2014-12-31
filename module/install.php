@@ -1,4 +1,6 @@
 <?php
+error_reporting(0);
+
 // Show if Submitted.
 if ($_POST['Install']) {
 	// Edit the Config File.
@@ -160,7 +162,7 @@ else {
 	}
 	// The Form.
 	else {
-		if (decoct(fileperms("assets/")) != 100777) {
+		if (decoct(fileperms("assets")) != 40777) {
 			echo "Warning: The Assets Folder is not writeable.<br />You can still Install, but you won't be able to the the Uploader, until you fix that.";
 		}
 ?>
