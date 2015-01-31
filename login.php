@@ -58,12 +58,10 @@
         <?php include("module/meta.php"); ?>
 </head>
 <body>
-<div id='Container'>
-	<div id='Logo'> <?php include("module/head.php"); ?> </div>
-	<div id='Links'> <?php include("module/topbar.php"); ?> </div>
-	<div id='User'> <?php include("module/menu.php"); ?> </div>
-	
-	<div id='Main'>
+	<?php
+		include("module/head.php");
+		include("module/menu.php");
+	?>
 	<h1>Login</h1>
 	<form action="login.php" method="post">
 		Username: <input type="text" name="uname" value="<?php echo $submitted_username; ?>" /><br />
@@ -71,9 +69,7 @@
 		<input type="submit" value="Login" />
 	</form>
 	<a href="register.php">Register</a>
-	</div>
 	
 	<?php include("module/foot.php"); ?>
-</div>
 </body>
 </html>

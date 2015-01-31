@@ -82,12 +82,11 @@
         <?php include("module/meta.php"); ?>
 </head>
 <body>
-<div id='Container'>
-	<div id='Logo'> <?php include("module/head.php"); ?> </div>
-	<div id='Links'> <?php include("module/topbar.php"); ?> </div>
-	<div id='User'> <?php include("module/menu.php"); ?> </div>
+	<?php
+		include("module/head.php");
+		include("module/menu.php");
+	?>
 	
-	<div id='Main'>
 	<h1>Register</h1>
 	<form action="register.php" method="post">
 		Username: <input type="text" name="uname" value="" /><br />
@@ -96,9 +95,7 @@
 		How much is two plus three minus one? (Numeric answer) <input type="text" name="sec" /><br />
 		<input type="submit" value="Register" />
 	</form>
-	</div>
 	
 	<?php include("module/foot.php"); ?>
-</div>
 </body>
 </html>
