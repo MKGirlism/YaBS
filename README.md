@@ -1,4 +1,4 @@
-YaBS 1.0
+YaBS 1.1
 ====
 
 The first pure Blogging System, ever seen, since ages.<br />
