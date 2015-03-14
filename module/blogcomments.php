@@ -54,6 +54,8 @@ Add Reply<br />
 <b>Message</b><br />
 <?php include ("module/textbuttons.php"); ?>
 
+<textarea name="message" id="message" cols="166" rows="10"></textarea><br />
+<input type="submit" name="submit" id="submit" value="Comment" />
 <?php
 }
 else {
